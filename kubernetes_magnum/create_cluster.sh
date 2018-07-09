@@ -9,6 +9,6 @@ N_NODES=1
 
 openstack coe cluster create --cluster-template k8s_cluster_template \
     --master-count $N_MASTER --node-count $N_NODES \
-    --keypair comet \
+    --keypair default-keypair \
     --master-flavor $MASTER_FLAVOR --flavor $FLAVOR \
     --docker-volume-size $DOCKER_VOLUME_SIZE_GB k8s
