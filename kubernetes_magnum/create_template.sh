@@ -10,4 +10,4 @@ openstack coe cluster template create --coe kubernetes \
     --flavor $FLAVOR --master-flavor $MASTER_FLAVOR \
     --docker-volume-size $DOCKER_VOLUME_SIZE_GB --docker-storage-driver devicemapper \
     --floating-ip-enabled \
-    k8s_cluster_template
+    k8s_cluster_template_fa28
